@@ -1,0 +1,30 @@
+{
+  "name": "MMM-Switch",
+  "version": "1.0.0",
+  "description": "Uses HC-SR04 sensors to detect hand movements",
+  "main": "MMM-Switch.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliagenini/MMM-Switch.git"
+  },
+  "keywords": [
+    "Magic Mirror",
+    "Hand Gestures",
+    "Switch",
+    "Modules"
+  ],
+  "author": "Elia Genini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliagenini/MMM-Switch/issues"
+  },
+  "homepage": "https://github.com/eliagenini/MMM-Switch",
+  "dependencies": {
+    "math-statistics": "latest",
+    "onoff": "latest",
+    "usleep": "latest"
+  },
+  "devDependencies": {
+    "electron-rebuild": "latest"
+  }
+}
